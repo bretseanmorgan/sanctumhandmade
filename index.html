@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanctum Handmade</title>
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7SNFTG9WPH"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-7SNFTG9WPH');
+    </script>    
+    <!-- Flowbite CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    
+    <!-- Custom Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        // Brand Primary Colors
+                        sage: '#8A9281',        // Background Base from logo
+                        'accent-white': '#FFFFFF',   // Clean white for text/icons
+                        'moon-accent': '#EAEAEA',    // Off-white for subtle shadows/hover
+                        
+                        // Brand Complementary Colors
+                        'soft-gold': '#C2B280',      // Metallic accent, handmade luxury
+                        'dusty-rose': '#D7A9A3',     // Warm balance, callouts/hover
+                        'charcoal': '#2F2F2F',       // Deep text, footer background
+                        'muted-clay': '#A97C73',     // Earthy warm, backgrounds/borders
+                        
+                        // Tailwind-style variants for the main brand colors
+                        brand: {
+                            'sage': '#8A9281',
+                            'sage-light': '#9CA793',
+                            'sage-dark': '#78816F',
+                            'gold': '#C2B280',
+                            'gold-light': '#D4C792',
+                            'gold-dark': '#B09E6E',
+                            'rose': '#D7A9A3',
+                            'rose-light': '#E3B7B1',
+                            'rose-dark': '#CB9B95',
+                            'charcoal': '#2F2F2F',
+                            'clay': '#A97C73'
+                        }
+                    }
+                },
+                fontFamily: {
+                    'body': [
+                        'Inter', 
+                        'ui-sans-serif', 
+                        'system-ui', 
+                        '-apple-system', 
+                        'system-ui', 
+                        'Segoe UI', 
+                        'Roboto', 
+                        'Helvetica Neue', 
+                        'Arial', 
+                        'Noto Sans', 
+                        'sans-serif', 
+                        'Apple Color Emoji', 
+                        'Segoe UI Emoji', 
+                        'Segoe UI Symbol', 
+                        'Noto Color Emoji'
+                    ],
+                    'sans': [
+                        'Inter', 
+                        'ui-sans-serif', 
+                        'system-ui', 
+                        '-apple-system', 
+                        'system-ui', 
+                        'Segoe UI', 
+                        'Roboto', 
+                        'Helvetica Neue', 
+                        'Arial', 
+                        'Noto Sans', 
+                        'sans-serif', 
+                        'Apple Color Emoji', 
+                        'Segoe UI Emoji', 
+                        'Segoe UI Symbol', 
+                        'Noto Color Emoji'
+                    ]
+                }
+            }
+        }
+    </script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="min-h-screen" class="clay">
+    <!-- Main Container -->
+    <div class="flex flex-col items-center justify-center min-h-screen px-4 py-8">
+        <!-- Logo Section -->
+        <div class="mb-12 text-center">
+            <!-- Logo -->
+            <div class="w-40 h-40 mx-auto mb-8 flex items-center justify-center p-4">
+                <img src="assets/images/logo.jpg" alt="Sanctum Handmade Logo" class="w-32 h-32 object-cover shadow-lg rounded-full">
+            </div>
+            
+            <!-- Business Name -->
+            <h1 class="text-4xl md:text-5xl font-bold mb-4" style="color: #2F2F2F;">
+                Sanctum Handmade
+            </h1>
+            
+            <!-- Tagline -->
+            <p class="text-lg md:text-xl max-w-lg mx-auto" style="color: #2F2F2F;">
+                Boutique + Workshop Event Space in Asbury Park, New Jersey
+            </p>
+        </div>
+        
+        <!-- Buttons Section -->
+        <div class="flex flex-col sm:flex-row gap-4 w-full max-w-md">
+            <!-- Primary Button -->
+            <a href="https://www.etsy.com/shop/SanctumHandmade" target="_blank" class="w-full font-medium rounded-lg text-sm px-5 py-3 text-center transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center focus:ring-4 focus:outline-none" style="background-color: #D7A9A3; color: #FFFFFF; box-shadow: 0 4px 6px -1px rgba(215, 169, 163, 0.3);" onmouseover="this.style.backgroundColor='#CB9B95'" onmouseout="this.style.backgroundColor='#D7A9A3'">
+                <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 2L3 7v11a1 1 0 001 1h3a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1h3a1 1 0 001-1V7l-7-5z" clip-rule="evenodd"></path>
+                </svg>
+                Shop Now
+            </a>
+            
+            <!-- Secondary Button -->
+            <a href="https://lu.ma/user/sanctumhandmade" target="_blank" class="w-full font-medium rounded-lg text-sm px-5 py-3 text-center transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center focus:ring-4 focus:outline-none border-2" style="background-color: #8A9281; color: #FFFFFF; border-color: #C2B280;" onmouseover="this.style.backgroundColor='#C2B280'; this.style.borderColor='#B09E6E';" onmouseout="this.style.backgroundColor='#8A9281'; this.style.borderColor='#C2B280';">
+                <svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path>
+                </svg>
+                Book a Workshop
+            </a>
+        </div>
+        
+        <!-- Optional: Contact Info -->
+        <div class="mt-12 text-center">
+            <p class="text-sm" style="color: #2F2F2F;">
+                Follow us for updates and new creations
+            </p>
+            
+            <!-- Social Links -->
+            <div class="flex justify-center space-x-4 mt-4">
+                <a href="https://www.facebook.com/sanctumhandmade" target="_blank" class="transition-colors duration-300" style="color: #A97C73;" onmouseover="this.style.color='#C2B280'" onmouseout="this.style.color='#A97C73'">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/sanctumhandmade/" target="_blank" class="transition-colors duration-300" style="color: #A97C73;" onmouseover="this.style.color='#C2B280'" onmouseout="this.style.color='#A97C73'">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12.017 2.011c-2.7 0-3.042.012-4.103.06-1.058.048-1.78.218-2.413.465a4.871 4.871 0 00-1.762 1.148 4.876 4.876 0 00-1.148 1.762c-.247.633-.417 1.355-.465 2.413-.048 1.061-.06 1.403-.06 4.103s.012 3.042.06 4.103c.048 1.058.218 1.78.465 2.413a4.871 4.871 0 001.148 1.762 4.876 4.876 0 001.762 1.148c.633.247 1.355.417 2.413.465 1.061.048 1.403.06 4.103.06s3.042-.012 4.103-.06c1.058-.048 1.78-.218 2.413-.465a4.871 4.871 0 001.762-1.148 4.876 4.876 0 001.148-1.762c.247-.633.417-1.355.465-2.413.048-1.061.06-1.403.06-4.103s-.012-3.042-.06-4.103c-.048-1.058-.218-1.78-.465-2.413a4.871 4.871 0 00-1.148-1.762 4.876 4.876 0 00-1.762-1.148c-.633-.247-1.355-.417-2.413-.465-1.061-.048-1.403-.06-4.103-.06zm0 1.44c2.655 0 2.971.01 4.016.058.969.044 1.497.207 1.848.344.464.18.795.396 1.142.743.347.347.563.678.743 1.142.137.351.3.879.344 1.848.048 1.045.058 1.361.058 4.016s-.01 2.971-.058 4.016c-.044.969-.207 1.497-.344 1.848-.18.464-.396.795-.743 1.142-.347.347-.678.563-1.142.743-.351.137-.879.3-1.848.344-1.045.048-1.361.058-4.016.058s-2.971-.01-4.016-.058c-.969-.044-1.497-.207-1.848-.344a3.078 3.078 0 01-1.142-.743 3.078 3.078 0 01-.743-1.142c-.137-.351-.3-.879-.344-1.848-.048-1.045-.058-1.361-.058-4.016s.01-2.971.058-4.016c.044-.969.207-1.497.344-1.848.18-.464.396-.795.743-1.142.347-.347.678-.563 1.142-.743.351-.137.879-.3 1.848-.344 1.045-.048 1.361-.058 4.016-.058z" clip-rule="evenodd"></path>
+                        <path fill-rule="evenodd" d="M12.017 15.33a3.33 3.33 0 110-6.66 3.33 3.33 0 010 6.66zm0-8.461a5.131 5.131 0 100 10.262 5.131 5.131 0 000-10.262zm6.532-1.194a1.2 1.2 0 11-2.4 0 1.2 1.2 0 012.4 0z" clip-rule="evenodd"></path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Flowbite JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+</body>
+</html>
